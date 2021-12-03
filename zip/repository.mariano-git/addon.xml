@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mariano-git" name="mariano-git Repository for Kodi 19.x (MATRIX)" version="1.0.0" provider-name="mariano-git">
+	<extension point="xbmc.addon.repository" name="mariano-git Repository">
+		<dir>
+			<info>https://github.com/mariano-git/repository.mariano-git/raw/matrix/addons.xml</info>
+			<checksum>https://github.com/mariano-git/repository.mariano-git/raw/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mariano-git/repository.mariano-git/raw/matrix/zip</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>mariano-git Repository for Kodi 19.x (MATRIX)</summary>
+		<description>Mariano Git repository for Kodi 19.x add-ons</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.jpg</icon>
+		</assets>
+	</extension>
+</addon>
