@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.flow" version="1.5.1" name="Personal Flow" provider-name="Mariano Marcolongo (mariano-git)">
+<addons><addon id="plugin.video.flow" version="1.5.1.a" name="Personal Flow" provider-name="Mariano Marcolongo (mariano-git)">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="pvr.iptvsimple" />
@@ -28,6 +28,10 @@
         <website>https://github.com/mariano-git/plugin.video.flow</website>
         <source>https://github.com/mariano-git/plugin.video.flow</source>
         <news>
+            V1.5.1.a
+                - Play speed improvement
+            V1.5.1
+                - Minor fixes
             V1.5.0 (2023-01)
             - Fix DRM negotiation
             - Directory integration

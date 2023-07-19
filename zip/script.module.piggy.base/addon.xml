@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="script.module.piggy.base" version="1.0.0" name="Piggy Base RT" provider-name="Mariano Marcolongo (mariano-git)">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Piggy base Library.</summary>
+        <description lang="en_GB">Piggy base Library.</description>
+        <description lang="es_ES">Libreria base de Piggy.</description>
+        <disclaimer lang="en_GB">This code is experimental.</disclaimer>
+        <disclaimer lang="es_ES">Este codigo es experimental.</disclaimer>
+        <license>MIT</license>
+        <platform>all</platform>
+        <website>https://github.com/mariano-git/piggy.base</website>
+        <source>https://github.com/mariano-git/piggy.base</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+        <news>
+            v1.0.0
+            - First implementation
+        </news>
+    </extension>
+</addon>

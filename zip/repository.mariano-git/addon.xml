@@ -12,7 +12,7 @@
 		<description>Mariano Git repository for Kodi 19.x add-ons</description>
 		<platform>all</platform>
 		<assets>
-			<icon>icon.jpg</icon>
+			<icon>icon.png</icon>
 		</assets>
 	</extension>
 </addon>
