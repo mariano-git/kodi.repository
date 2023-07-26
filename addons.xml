@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.flow" version="1.5.1.a" name="Personal Flow" provider-name="Mariano Marcolongo (mariano-git)">
+<addons><addon id="plugin.video.flow" version="1.5.2" name="Personal Flow" provider-name="Mariano Marcolongo (mariano-git)">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="pvr.iptvsimple" />
         <import addon="inputstream.adaptive" />
         <import addon="script.module.inputstreamhelper" />
-        <import addon="script.module.piggy.base" version="1.0.0" />
-        <import addon="script.module.piggy.ws" version="1.0.0" />
-        <import addon="script.module.piggy.restful" version="1.0.0" />
+        <import addon="script.module.piggy.base" version="1.0.1" />
+        <import addon="script.module.piggy.ws" version="1.0.1" />
+        <import addon="script.module.piggy.restful" version="1.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -28,6 +28,11 @@
         <website>https://github.com/mariano-git/plugin.video.flow</website>
         <source>https://github.com/mariano-git/plugin.video.flow</source>
         <news>
+            V1.5.2
+                - Fix X-Request-Id format to match format and honor device id
+                - Fix EPG loop issue
+                - Add EPG failsafe
+                - Remove emergency EPG update
             V1.5.1.a
                 - Play speed improvement
             V1.5.1
@@ -45,7 +50,7 @@
             - Improve ws.rs
         </news>
     </extension>
-</addon><addon id="script.module.piggy.base" version="1.0.0" name="Piggy Base RT" provider-name="Mariano Marcolongo (mariano-git)">
+</addon><addon id="script.module.piggy.base" version="1.0.1" name="Piggy Base RT" provider-name="Mariano Marcolongo (mariano-git)">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -68,7 +73,7 @@
             - First implementation
         </news>
     </extension>
-</addon><addon id="script.module.piggy.restful" version="1.0.0" name="Piggy RESTful Web Services framework" provider-name="Mariano Marcolongo (mariano-git)">
+</addon><addon id="script.module.piggy.restful" version="1.0.1" name="Piggy RESTful Web Services framework" provider-name="Mariano Marcolongo (mariano-git)">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -91,7 +96,7 @@
             - First implementation
         </news>
     </extension>
-</addon><addon id="script.module.piggy.ws" version="1.0.0" name="API for RESTful Web Services" provider-name="Mariano Marcolongo (mariano-git)">
+</addon><addon id="script.module.piggy.ws" version="1.0.1" name="API for RESTful Web Services" provider-name="Mariano Marcolongo (mariano-git)">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>

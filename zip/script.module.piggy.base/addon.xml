@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="script.module.piggy.base" version="1.0.0" name="Piggy Base RT" provider-name="Mariano Marcolongo (mariano-git)">
+<addon id="script.module.piggy.base" version="1.0.1" name="Piggy Base RT" provider-name="Mariano Marcolongo (mariano-git)">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
